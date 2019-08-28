@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Aplicaciones de R espacial a políticas Sociales</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Richard Detomasi   richard.detomasi@gmail.com Encuentro GURU::mvd 21 de agosto de 2019" />
+    <link href="taller_r_sig_guru_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="taller_r_sig_guru_files/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link href="taller_r_sig_guru_files/remark-css-0.0.1/rladies-fonts.css" rel="stylesheet" />
+    <link href="taller_r_sig_guru_files/font-awesome-5.3.1/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Aplicaciones de R espacial a políticas Sociales<br><br><img src="img/rspatial.jpg" style="width:12.0%" />   <img src="img/Rlogo.png" style="width:16.0%" />   <img src="img/mides.jpg" style="width:12.0%" />
+### Richard Detomasi<br> <span style="font-size: 80%;"> <a href="mailto:richard.detomasi@gmail.com" class="email">richard.detomasi@gmail.com</a><br>Encuentro GURU::mvd<br>21 de agosto de 2019<br><br></span>
+### <img src="img/by-nc-sa.png" style="width:10.0%" />
+
+---
+
+
+---
+# Formación - deformación
+
+- Formado como Antropólogo y pichón de Demógrafo 
+&lt;br&gt;&lt;br&gt;
+--
+
+- Devenido a pseudo-geógrafo y amante de la programación en R
+&lt;br&gt;&lt;br&gt;
+--
+
+- Afortunadamente puedo combinar mi cargo de Antropólogo en el Dpto. de Geografía del MIDES con mi gusto por R.
+&lt;br&gt;&lt;br&gt;
+
+
+&lt;!-- \hyperlink{label}{\beamerbutton{I jump to fourth slide of next frame}} --&gt;
+
+---
+# SIG o GDS?
+
+Diferencias principales entre el campo de los Sistemas de Información Geográficos (**SIG**) y el de la _Geographic Data Science_ (**GDS**):
+
+| Atributos      | SIG       | GDS    |
+|----------------|---------------|----------------|
+| Disciplinas   | Geografía  | Geografía, Computación, Estadística |
+| Foco | Interfaz Gráfica  | Código |
+| Reproducible  | Mínimo   | Máximo |
+
+&lt;!-- Esta distinción es importante por ejemplo en el contexto de tener un impacto en las políticas: al ser abierto y transparente (y por lo tanto usar código en lugar de una interfaz gráfica de usuario no reproducible) la investigación maximiza sus posibilidades de alterar las decisiones. --&gt;
+
+---
+# Analisis de puntos
+
+&lt;!-- \hypertarget&lt;4&gt;{label}{\beamerbutton{I'm on the fourth slide}} --&gt;
+
+Los Modelos Espaciales Puntuales:
+
+- inicialmente implementados por botánicos y ecólogos, en la década de los 30 del siglo XX.
+&lt;br&gt;&lt;br&gt;
+--
+
+- En la actualidad este tipo de análisis es empleado en muchos campos tales como la arqueología, la epidemiologia, marketing o la criminología. &lt;br&gt;&lt;br&gt;
+--
+
+- Por ejemplo, es posible estudiar qué distribución espacial presentan los casos de una enfermedad determinada.
+&lt;br&gt;&lt;br&gt;
+
+---
+# Caso [**CAIF-ANEP**](http://dinem.mides.gub.uy/innovaportal/file/61671/1/estudio-de-localizacion-optima-para-cobertura-de-primera-infancia.-2015.pdf)
+
+&lt;!-- ![](img/caif.png){ width=10% } &amp;nbsp; ![](img/anep.png){ width=10% } --&gt;
+
+&lt;p align="center"&gt; 
+&lt;img src="img/caif_anep.PNG" width="800"&gt;
+&lt;/p&gt;
+
+
+---
+# Distancias
+
+- Hay varios tipos de distancias... 
+&lt;br&gt;&lt;br&gt;
+--
+
+- <i class="fas  fa-external-link-alt "></i> __euclidianas VS redes__ <i class="fas  fa-route "></i> 
+&lt;br&gt;&lt;br&gt;
+--
+
+- [EPP incorporó redes...](http://47jaiio.sadio.org.ar/sites/default/files/LatinR_10.pdf)
+&lt;br&gt;&lt;br&gt;
+
+&lt;p align="center"&gt; 
+&lt;img src="img/epp2.PNG" width="400"&gt;
+&lt;/p&gt;
+
+---
+# Caso [**"Yo Estudio y Trabajo"**](http://dinem.mides.gub.uy/innovaportal/file/104414/1/yet_dinem_ipgh.pdf)
+
+![](img/yet.PNG)
+
+
+
+---
+# Para profundizar
+
+
+.left-column[
+
+<i class="fab  fa-meetup fa-3x " style="color:#de2d26;"></i> &lt;br&gt;&lt;br&gt;
+
+<i class="fas  fa-globe-americas fa-3x " style="color:#756bb1;"></i> &lt;br&gt;&lt;br&gt;
+
+<i class="fab  fa-telegram fa-3x " style="color:#2c7fb8;"></i> &lt;br&gt;&lt;br&gt;
+
+<i class="fab  fa-github fa-3x "></i> 
+
+]
+
+.rigth-column[
+
+&lt;br&gt;
+Comunidad en Uruguay: [meetup R-Ladies](https://www.meetup.com/es-ES/rladies-montevideo/) y [meetup GURU](https://www.meetup.com/es-ES/GURU-mvd/)
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+
+[Web R espacial ES](http://respaciales.ourproject.org/index.php?title=P%C3%A1gina_principal)
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+
+Grupos de Telegram: [R espacial ES](https://t.me/rspatial_es) y [GURU](https://t.me/GURU)
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+
+[Taller R espacial](https://gitlab.com/RichDeto/Talleres_R_GvSIG/tree/master/presentacion_R_espacial)
+
+]
+
+---
+
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+![](img/GRACIAS.png)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
