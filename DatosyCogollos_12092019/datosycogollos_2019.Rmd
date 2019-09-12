@@ -36,7 +36,7 @@ background-size: 7%
 
 [GURU-mvd](https://www.meetup.com/es-ES/GURU-mvd/) | [@gurumvd](https://twitter.com/gurumvd) | [github](https://github.com/GURU-MVD/meetup_presentations)
 
-- Espacio de encuentro e intercambio entre usuari@s e interesad@s en el **lenguaje de programación R**.
+- Espacio de encuentro e intercambio entre usuarixs e interesadxs en el **lenguaje de programación R**.
 - Nos motiva ayudarnos, compartir experiencias y desafíos.
 - Desarrollamos la comunidad R en Montevideo.
 - Nos nucleamos a través de meetup y ya somos como 262 personas `r emo::ji("nail")`
@@ -55,9 +55,9 @@ Sobre **R**:
 # Grupo
 
 - Formaciones muy diversas:
-  - Sociólog@s / Biólog@s / Estadístic@s / Matemátic@s / Politólog@s / Ingenier@s en Computación / Economistas
+  - Sociólogxs / Biólogxs / Estadísticxs / Matemáticxs / Politólogxs / Economistas / Ingenierxs / Antropólogxs
 - Paridad de género `r emo::ji("woman")` `r emo::ji("man")`
-- [R-Consortium](https://www.r-consortium.org/) brinda soporte a GURU::mvd (y todos los grupos de usuari@s a nivel global)
+- [R-Consortium](https://www.r-consortium.org/) brinda soporte a GURU::mvd (y todos los grupos de usuarixs a nivel global)
 
 .pull-left[![Meetup 02](images/meetup02.jpeg)]
 .pull-right[![Meetup 02 b](images/meetup02b.jpeg)]
